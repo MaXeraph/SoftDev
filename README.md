@@ -26,7 +26,7 @@
   - Everyone has complete history of the repo
 - Every commit is a snapshot of the filesystem
 
-![Repo-as-Graph](./docs/Repo-as-Graph.jpg)
+![Repo-as-Graph](./images/Repo-as-Graph.jpg)
 
 ### How to branch + merge
 
@@ -43,7 +43,7 @@
   - Branches have diverged from a common ancestor
   - changes in the two branches are `NOT` conflicting.
   - Merge performed by creating a new commit that has both changes.
-    ![Recursive-Merge](./docs/Recursive-Merge.jpg)
+    ![Recursive-Merge](./images/Recursive-Merge.jpg)
 - `Conflicting merge`:
   - Changes in the two branches are `conflicting`
   - Auto-merge not possible. Have to resolve conflict by hand.
@@ -65,3 +65,5 @@
 - `git pull` == (sort of) does a `git fetch` followed by a `git merge`
 - `git stash`: when you want to switch branches but not commit work on current branch.
   - Bring back stashed with `git stash apply/pop`
+
+------
